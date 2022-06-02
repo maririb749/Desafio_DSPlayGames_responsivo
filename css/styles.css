@@ -1,0 +1,633 @@
+                                                                                                                                                        /* ELEMENTS*/
+                                                                                                                                                        
+                                                                                                                                                         :root {
+                                                                                                                                                            --green-color: #38AF90;
+                                                                                                                                                            --white-color: #fff;
+                                                                                                                                                            --gray-color: #797979;
+                                                                                                                                                            --light-gray-color: #f0f0f0;
+                                                                                                                                                            --pink-color: #DD7E92;
+                                                                                                                                                            --plchdr-gray: #C4C4C4;
+                                                                                                                                                            --black-color: #383838;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        * {
+                                                                                                                                                            box-sizing: border-box;
+                                                                                                                                                            margin: 0;
+                                                                                                                                                            padding: 0;
+                                                                                                                                                            text-decoration: none;
+                                                                                                                                                            list-style-type: none;
+                                                                                                                                                            font-family: 'Poppins', sans-serif;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        html,
+                                                                                                                                                        body {
+                                                                                                                                                            padding: 0;
+                                                                                                                                                            margin: 0;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .nav-container {
+                                                                                                                                                            background-color: var(--green-color);
+                                                                                                                                                            height: 90px;
+                                                                                                                                                            width: 100%;
+                                                                                                                                                            filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.75));
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .nav-main {
+                                                                                                                                                            width: 100%;
+                                                                                                                                                            max-width: 990px;
+                                                                                                                                                            margin: 0 auto;
+                                                                                                                                                            display: flex;
+                                                                                                                                                            align-items: center;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .nav-main h1 {
+                                                                                                                                                            color: var(--white-color);
+                                                                                                                                                            font-size: 24px;
+                                                                                                                                                            font-weight: 700;
+                                                                                                                                                            padding: 27px 480px 27px 0;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .nav-main ul {
+                                                                                                                                                            display: flex;
+                                                                                                                                                            align-items: center;
+                                                                                                                                                            color: var(--white-color);
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .nav-main a {
+                                                                                                                                                            color: var(--white-color);
+                                                                                                                                                            font-weight: 500;
+                                                                                                                                                            font-size: 14px;
+                                                                                                                                                            padding: 34px 29px 35px 0px;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .nav-main img {
+                                                                                                                                                            width: 62px;
+                                                                                                                                                            margin: 14px 0px 14px 0px;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        #news {
+                                                                                                                                                            width: 100%;
+                                                                                                                                                            max-width: 990px;
+                                                                                                                                                            margin: 0 auto;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        #news h1 {
+                                                                                                                                                            text-align: center;
+                                                                                                                                                            padding: 40px 40px;
+                                                                                                                                                            color: var(--gray-color);
+                                                                                                                                                            font-size: 36px;
+                                                                                                                                                            font-weight: bold;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .news-content {
+                                                                                                                                                            background-color: var(--light-gray-color);
+                                                                                                                                                            width: 100%;
+                                                                                                                                                            width: 990px;
+                                                                                                                                                            height: 291px;
+                                                                                                                                                            margin-bottom: 40px;
+                                                                                                                                                            border-radius: 8px;
+                                                                                                                                                            margin-left: 15px;
+                                                                                                                                                            margin-right: 15px;
+                                                                                                                                                            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .title h2 {
+                                                                                                                                                            color: var(--green-color);
+                                                                                                                                                            font-size: 24px;
+                                                                                                                                                            padding-top: 16px;
+                                                                                                                                                            margin-left: 40px;
+                                                                                                                                                            font-weight: 700;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .subtitle h3 {
+                                                                                                                                                            color: var(--gray-color);
+                                                                                                                                                            font-size: 16px;
+                                                                                                                                                            margin-left: 40px;
+                                                                                                                                                            font-weight: 700;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        hr {
+                                                                                                                                                            border: 1px solid var(--green-color);
+                                                                                                                                                            margin-left: 40px;
+                                                                                                                                                            margin-right: 40px;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .date {
+                                                                                                                                                            color: var(--green-color);
+                                                                                                                                                            font-size: 10px;
+                                                                                                                                                            font-weight: 400;
+                                                                                                                                                            margin-left: 40px;
+                                                                                                                                                            padding-top: 5px;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .description p {
+                                                                                                                                                            color: var(--gray-color);
+                                                                                                                                                            font-size: 10px;
+                                                                                                                                                            font-weight: 400;
+                                                                                                                                                            padding-top: 16px;
+                                                                                                                                                            margin-left: 40px;
+                                                                                                                                                            margin-right: 40px;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .read-more a {
+                                                                                                                                                            color: var(--pink-color);
+                                                                                                                                                            font-size: 14px;
+                                                                                                                                                            font-weight: 700;
+                                                                                                                                                            padding: 7px 0 0 40px;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        #news-button {
+                                                                                                                                                            margin: 0px 0px 56px 0px;
+                                                                                                                                                            text-align: center;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .button {
+                                                                                                                                                            width: 244px;
+                                                                                                                                                            height: 67px;
+                                                                                                                                                            color: var(--white-color);
+                                                                                                                                                            background-color: var(--pink-color);
+                                                                                                                                                            font-size: 18px;
+                                                                                                                                                            font-weight: 700;
+                                                                                                                                                            border: 0;
+                                                                                                                                                            border-radius: 8px;
+                                                                                                                                                            cursor: pointer;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .main-games {
+                                                                                                                                                            width: 100%;
+                                                                                                                                                            margin: 0 auto;
+                                                                                                                                                            background-color: var(--light-gray-color);
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .games h1 {
+                                                                                                                                                            color: var(--green-color);
+                                                                                                                                                            font-size: 36px;
+                                                                                                                                                            font-weight: 700;
+                                                                                                                                                            text-align: center;
+                                                                                                                                                            padding-top: 36px;
+                                                                                                                                                            padding-bottom: 73px;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .box-container {
+                                                                                                                                                            padding-left: 30px;
+                                                                                                                                                            display: flex;
+                                                                                                                                                            width: 100%;
+                                                                                                                                                            max-width: 960px;
+                                                                                                                                                            margin: 0 auto
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .container-box {
+                                                                                                                                                            width: 300px;
+                                                                                                                                                            height: 320px;
+                                                                                                                                                            background-color: var(--white-color);
+                                                                                                                                                            border-radius: 8px;
+                                                                                                                                                            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+                                                                                                                                                            margin-bottom: 70px;
+                                                                                                                                                            padding-right: 0;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .container-box img {
+                                                                                                                                                            border-radius: 8px 8px 0 0;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .box-container h2 {
+                                                                                                                                                            color: var(--gray-color);
+                                                                                                                                                            font-size: 18px;
+                                                                                                                                                            padding: 27px 40px 0 40px;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .contrast {
+                                                                                                                                                            color: var(--green-color);
+                                                                                                                                                            font-size: 12px;
+                                                                                                                                                            font-weight: bold;
+                                                                                                                                                            padding: 0 2px 0 46px;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .box-container p {
+                                                                                                                                                            color: var(--gray-color);
+                                                                                                                                                            font-size: 12px;
+                                                                                                                                                            padding-bottom: 13px;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .box-container h3 {
+                                                                                                                                                            color: var(--green-color);
+                                                                                                                                                            padding-bottom: 15px;
+                                                                                                                                                            font-size: 36px;
+                                                                                                                                                            text-align: center;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        #registration {
+                                                                                                                                                            background-color: var(--white-color);
+                                                                                                                                                            height: 716px;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        #registration h2 {
+                                                                                                                                                            color: var(--gray-color);
+                                                                                                                                                            font-size: 36px;
+                                                                                                                                                            padding: 40px;
+                                                                                                                                                            text-align: center;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        #container-form {
+                                                                                                                                                            background-color: var(--light-gray-color);
+                                                                                                                                                            width: 790px;
+                                                                                                                                                            height: 522px;
+                                                                                                                                                            margin: 0 auto;
+                                                                                                                                                            border-radius: 8px;
+                                                                                                                                                            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+                                                                                                                                                            margin-bottom: 61px;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .name {
+                                                                                                                                                            width: 100%;
+                                                                                                                                                            max-width: 642px;
+                                                                                                                                                            border-radius: 4px;
+                                                                                                                                                            border: none;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        #ctrl-name {
+                                                                                                                                                            padding: 13px 400px 13px 22px;
+                                                                                                                                                            Width: 642px;
+                                                                                                                                                            height: 50px;
+                                                                                                                                                            margin-top: 52px;
+                                                                                                                                                            margin-left: 73px;
+                                                                                                                                                            margin-right: 75px;
+                                                                                                                                                            margin-bottom: 20px;
+                                                                                                                                                            border-radius: 4px 4px 4px 4px;
+                                                                                                                                                            background-color: var(--white-color);
+                                                                                                                                                            border: 1px solid var(--plchdr-gray);
+                                                                                                                                                            font-size: 16px;
+                                                                                                                                                            font-weight: 400;
+                                                                                                                                                            color: var(--plchdr-gray);
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .email {
+                                                                                                                                                            width: 100%;
+                                                                                                                                                            max-width: 642px;
+                                                                                                                                                            border-radius: 4px;
+                                                                                                                                                            border: none;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        #ctrl-email {
+                                                                                                                                                            padding: 13px 400px 13px 22px;
+                                                                                                                                                            Width: 642px;
+                                                                                                                                                            height: 50px;
+                                                                                                                                                            margin-left: 73px;
+                                                                                                                                                            margin-right: 75px;
+                                                                                                                                                            margin-bottom: 20px;
+                                                                                                                                                            border-radius: 4px 4px 4px 4px;
+                                                                                                                                                            background-color: var(--white-color);
+                                                                                                                                                            border: 1px solid var(--plchdr-gray);
+                                                                                                                                                            font-size: 16px;
+                                                                                                                                                            font-weight: 400;
+                                                                                                                                                            color: var(--plchdr-gray);
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .question {
+                                                                                                                                                            color: var(--gray-color);
+                                                                                                                                                            font-size: 16px;
+                                                                                                                                                            font-weight: 400;
+                                                                                                                                                            margin-left: 72px;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .radio-container label {
+                                                                                                                                                            display: flex;
+                                                                                                                                                            align-items: center;
+                                                                                                                                                            column-gap: 7px;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .custom-radio {
+                                                                                                                                                            margin-top: 8px;
+                                                                                                                                                            border: 1px solid var(--gray-color);
+                                                                                                                                                            background-color: var(--white-color);
+                                                                                                                                                            width: 23px;
+                                                                                                                                                            height: 23px;
+                                                                                                                                                            display: grid;
+                                                                                                                                                            place-content: center;
+                                                                                                                                                            border-radius: 50%;
+                                                                                                                                                            margin-left: 74px;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .custom-pc {
+                                                                                                                                                            margin-top: 8px;
+                                                                                                                                                            color: var(--gray-color);
+                                                                                                                                                            font-size: 16px;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .custom-xbox {
+                                                                                                                                                            margin-top: 8px;
+                                                                                                                                                            color: var(--gray-color);
+                                                                                                                                                            font-size: 16px;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .custom-playstation {
+                                                                                                                                                            margin-top: 8px;
+                                                                                                                                                            color: var(--gray-color);
+                                                                                                                                                            font-size: 16px;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .custom-radio span {
+                                                                                                                                                            content: '';
+                                                                                                                                                            width: 9px;
+                                                                                                                                                            height: 9px;
+                                                                                                                                                            background: var(--gray-color);
+                                                                                                                                                            border-radius: 50%;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        input[type='checkbox'] {
+                                                                                                                                                            display: none;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .news {
+                                                                                                                                                            display: flex;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .custom-checkbox {
+                                                                                                                                                            width: 23px;
+                                                                                                                                                            height: 23px;
+                                                                                                                                                            margin-left: 72px;
+                                                                                                                                                            border: 1px solid var(--gray-color);
+                                                                                                                                                            background: var(--white-color);
+                                                                                                                                                            margin-right: 9px;
+                                                                                                                                                            margin-top: 31px;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .custom-ctrl-click {
+                                                                                                                                                            color: #797979;
+                                                                                                                                                            font-size: 16px;
+                                                                                                                                                            margin-top: 30px;
+                                                                                                                                                            font-weight: 400;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .button-style-container {
+                                                                                                                                                            display: inline-flex;
+                                                                                                                                                            margin-top: 38px;
+                                                                                                                                                            margin-bottom: 52px;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .btn-secondary2 {
+                                                                                                                                                            margin-left: 125px;
+                                                                                                                                                            padding-right: 52px;
+                                                                                                                                                            border: none;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .btn-secondary2 a {
+                                                                                                                                                            border-radius: 8px;
+                                                                                                                                                            background-color: var(--pink-color);
+                                                                                                                                                            padding: 22px 94px 22px 91px;
+                                                                                                                                                            color: var(--white-color);
+                                                                                                                                                            font-size: 18px;
+                                                                                                                                                            font-weight: bold;
+                                                                                                                                                            cursor: pointer;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .btn-secondary3 {
+                                                                                                                                                            margin-right: 125px;
+                                                                                                                                                            border-radius: 8px;
+                                                                                                                                                            border: 2px solid var(--pink-color);
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .btn-secondary3 p {
+                                                                                                                                                            border-radius: 8px;
+                                                                                                                                                            background-color: var(--white-color);
+                                                                                                                                                            padding: 20px 94px 20px 91px;
+                                                                                                                                                            color: var(--pink-color);
+                                                                                                                                                            font-size: 18px;
+                                                                                                                                                            font-weight: bold;
+                                                                                                                                                            cursor: pointer;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        footer {
+                                                                                                                                                            height: 190px;
+                                                                                                                                                            left: 0px;
+                                                                                                                                                            top: 2196px;
+                                                                                                                                                            background-color: var(--black-color);
+                                                                                                                                                            color: var(--color-white);
+                                                                                                                                                            display: flex;
+                                                                                                                                                            align-items: center;
+                                                                                                                                                            justify-content: space-between;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .container {
+                                                                                                                                                            width: 100%;
+                                                                                                                                                            max-width: 990px;
+                                                                                                                                                            margin: 0 auto;
+                                                                                                                                                            display: flex;
+                                                                                                                                                            justify-content: space-between;
+                                                                                                                                                            align-items: center;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .social-media a {
+                                                                                                                                                            color: var(--white-color);
+                                                                                                                                                            font-size: 14px;
+                                                                                                                                                            font-weight: 400;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .rights-reserved h4 {
+                                                                                                                                                            color: var(--white-color);
+                                                                                                                                                            font-size: 14px;
+                                                                                                                                                            font-weight: 400;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        .privacy a {
+                                                                                                                                                            color: var(--white-color);
+                                                                                                                                                            font-size: 14px;
+                                                                                                                                                            font-weight: 400;
+                                                                                                                                                            display: block;
+                                                                                                                                                            text-align: center;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        @media(max-width: 576px) {
+                                                                                                                                                            .nav-main {
+                                                                                                                                                                width: 100%;
+                                                                                                                                                                max-width: 320px;
+                                                                                                                                                            }
+                                                                                                                                                            .nav-main h1 {
+                                                                                                                                                                font-size: 18px;
+                                                                                                                                                                font-weight: 700;
+                                                                                                                                                                padding: 32px 107px 31px 10px;
+                                                                                                                                                            }
+                                                                                                                                                            .nav-main ul {
+                                                                                                                                                                display: none;
+                                                                                                                                                            }
+                                                                                                                                                            .nav-main a {
+                                                                                                                                                                display: none;
+                                                                                                                                                            }
+                                                                                                                                                            .nav-main img {
+                                                                                                                                                                width: 62px;
+                                                                                                                                                                margin: 14px 10px 14px 0px;
+                                                                                                                                                            }
+                                                                                                                                                            #news {
+                                                                                                                                                                max-width: 320px;
+                                                                                                                                                            }
+                                                                                                                                                            #news h1 {
+                                                                                                                                                                padding: 40px 0 8px 0;
+                                                                                                                                                                font-size: 24px;
+                                                                                                                                                            }
+                                                                                                                                                            .news-content {
+                                                                                                                                                                width: 300px;
+                                                                                                                                                                height: 493px;
+                                                                                                                                                                margin-bottom: 28px;
+                                                                                                                                                                margin-right: 10px;
+                                                                                                                                                                margin-left: 10px;
+                                                                                                                                                                border-radius: 8px;
+                                                                                                                                                            }
+                                                                                                                                                            .title h2 {
+                                                                                                                                                                font-size: 16px;
+                                                                                                                                                                margin-left: 14px;
+                                                                                                                                                                margin-right: 12px;
+                                                                                                                                                            }
+                                                                                                                                                            .subtitle h3 {
+                                                                                                                                                                font-size: 12px;
+                                                                                                                                                                margin-left: 12px;
+                                                                                                                                                                margin-right: 12px;
+                                                                                                                                                                font-weight: 700;
+                                                                                                                                                                display: flex;
+                                                                                                                                                            }
+                                                                                                                                                            hr {
+                                                                                                                                                                margin-left: 13px;
+                                                                                                                                                                margin-right: 13px;
+                                                                                                                                                            }
+                                                                                                                                                            .date {
+                                                                                                                                                                font-size: 10px;
+                                                                                                                                                                font-weight: 400;
+                                                                                                                                                                margin-left: 13px;
+                                                                                                                                                                padding-top: 1px;
+                                                                                                                                                            }
+                                                                                                                                                            .description p {
+                                                                                                                                                                width: 278px;
+                                                                                                                                                                font-size: 10px;
+                                                                                                                                                                padding-top: 12px;
+                                                                                                                                                                margin-left: 12px;
+                                                                                                                                                                margin-right: 12px;
+                                                                                                                                                            }
+                                                                                                                                                            .read-more a {
+                                                                                                                                                                font-size: 14px;
+                                                                                                                                                                font-weight: 700;
+                                                                                                                                                                padding: 13px;
+                                                                                                                                                                padding-bottom: 12px;
+                                                                                                                                                                margin-top: 0px
+                                                                                                                                                            }
+                                                                                                                                                            #news-button {
+                                                                                                                                                                margin-bottom: 40px;
+                                                                                                                                                                text-align: center;
+                                                                                                                                                                margin-left: 15px;
+                                                                                                                                                            }
+                                                                                                                                                            .games h1 {
+                                                                                                                                                                font-size: 24px;
+                                                                                                                                                                font-weight: 700;
+                                                                                                                                                                padding-top: 40px;
+                                                                                                                                                                padding-bottom: 28px;
+                                                                                                                                                            }
+                                                                                                                                                            .box-container {
+                                                                                                                                                                padding-left: 0px;
+                                                                                                                                                                display: block;
+                                                                                                                                                                width: 100%;
+                                                                                                                                                                max-width: 320px;
+                                                                                                                                                                height: 1136px;
+                                                                                                                                                                margin-left: 10px;
+                                                                                                                                                                margin-right: 10px;
+                                                                                                                                                                margin-bottom: 40px;
+                                                                                                                                                                margin: 0 auto
+                                                                                                                                                            }
+                                                                                                                                                            .container-box {
+                                                                                                                                                                width: 300px;
+                                                                                                                                                                height: 326px;
+                                                                                                                                                                border-radius: 8px;
+                                                                                                                                                                margin-bottom: 27px;
+                                                                                                                                                                margin-left: 10px;
+                                                                                                                                                                padding-right: 0;
+                                                                                                                                                                margin-bottom: 27px;
+                                                                                                                                                            }
+                                                                                                                                                            #registration h2 {
+                                                                                                                                                                color: #797979;
+                                                                                                                                                                font-size: 24px;
+                                                                                                                                                                padding-top: 40px;
+                                                                                                                                                                padding-bottom: 16px;
+                                                                                                                                                                text-align: center;
+                                                                                                                                                            }
+                                                                                                                                                            #container-form {
+                                                                                                                                                                width: 300px;
+                                                                                                                                                                height: 603px;
+                                                                                                                                                                margin: 0 auto;
+                                                                                                                                                                margin-bottom: 40px;
+                                                                                                                                                                margin-left: 10px;
+                                                                                                                                                            }
+                                                                                                                                                            .name {
+                                                                                                                                                                width: 100%;
+                                                                                                                                                                max-width: 280px;
+                                                                                                                                                                border-radius: 4px;
+                                                                                                                                                            }
+                                                                                                                                                            #ctrl-name {
+                                                                                                                                                                padding: 13px 128px 13px 22px;
+                                                                                                                                                                Width: 280px;
+                                                                                                                                                                margin-top: 52px;
+                                                                                                                                                                margin-left: 12px;
+                                                                                                                                                                margin-right: 12px;
+                                                                                                                                                                margin-bottom: 20px;
+                                                                                                                                                                font-size: 16px;
+                                                                                                                                                                font-weight: 400;
+                                                                                                                                                            }
+                                                                                                                                                            .email {
+                                                                                                                                                                width: 100%;
+                                                                                                                                                                max-width: 280px;
+                                                                                                                                                            }
+                                                                                                                                                            #ctrl-email {
+                                                                                                                                                                padding: 13px 128px 13px 22px;
+                                                                                                                                                                Width: 280px;
+                                                                                                                                                                margin-left: 12px;
+                                                                                                                                                                margin-right: 8px;
+                                                                                                                                                                margin-bottom: 20px;
+                                                                                                                                                                font-size: 16px;
+                                                                                                                                                                font-weight: 400;
+                                                                                                                                                            }
+                                                                                                                                                            .question {
+                                                                                                                                                                font-size: 16px;
+                                                                                                                                                                font-weight: 400;
+                                                                                                                                                                margin-left: 8px;
+                                                                                                                                                            }
+                                                                                                                                                            .custom-radio {
+                                                                                                                                                                margin-left: 9px;
+                                                                                                                                                            }
+                                                                                                                                                            .custom-checkbox {
+                                                                                                                                                                margin-left: 8px;
+                                                                                                                                                                margin-right: 9px;
+                                                                                                                                                                margin-top: 35px;
+                                                                                                                                                            }
+                                                                                                                                                            .custom-ctrl-click {
+                                                                                                                                                                font-weight: 400;
+                                                                                                                                                                margin-top: 35px;
+                                                                                                                                                            }
+                                                                                                                                                            .btn-secondary2 {
+                                                                                                                                                                margin-left: 26px;
+                                                                                                                                                                padding-right: 30px;
+                                                                                                                                                                padding-bottom: 40px;
+                                                                                                                                                            }
+                                                                                                                                                            .btn-secondary2 a {
+                                                                                                                                                                border-radius: 8px;
+                                                                                                                                                                padding: 20px 94px 20px 91px;
+                                                                                                                                                            }
+                                                                                                                                                            .button-style-container {
+                                                                                                                                                                display: block;
+                                                                                                                                                            }
+                                                                                                                                                            .btn-secondary3 {
+                                                                                                                                                                margin-right: 20px;
+                                                                                                                                                                margin-left: 26px;
+                                                                                                                                                                border-radius: 8px;
+                                                                                                                                                                margin-bottom: 33px;
+                                                                                                                                                            }
+                                                                                                                                                            .btn-secondary3 p {
+                                                                                                                                                                padding: 19px 89px 19px 85px;
+                                                                                                                                                            }
+                                                                                                                                                            footer {
+                                                                                                                                                                height: 292px;
+                                                                                                                                                                margin: 10px 0 0 0;
+                                                                                                                                                            }
+                                                                                                                                                            .container {
+                                                                                                                                                                height: 80%;
+                                                                                                                                                                padding: 20px 30px;
+                                                                                                                                                                flex-direction: column;
+                                                                                                                                                                text-align: center;
+                                                                                                                                                                justify-content: space-between;
+                                                                                                                                                            }
+                                                                                                                                                        }
